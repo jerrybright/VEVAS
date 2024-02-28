@@ -1,0 +1,79 @@
+body{
+    font-family: Arial, sans-serif;
+         background-image: url("./faa.jpeg");
+          background-size: cover;
+          height: 100vh; 
+    color: rgb(221, 137, 137); 
+  }
+  
+  header, footer {
+    background-color: rgb(12, 11, 11);
+    color: rgb(185, 50, 50);
+    padding: 1em;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 1em;
+  }
+  
+  nav a {
+    color: rgb(126, 49, 208);
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 1em;
+  }
+  
+  main h1 {
+    text-align: center;
+  }
+  
+  section {
+    margin-bottom: 1em;
+  }
+  
+  section h2 {
+    margin-bottom: 0.5em;
+  }
+  
+  ul {
+    margin-top: 0;
+    padding-left: 1em;
+  }
+  #buttons {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+  }
+  .but{
+    padding-left: 600px;
+    padding-top: 100px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1em;
+    margin: 10px;
+    background-color: #4CAF50;
+    color: white;
+    width: 200px;
+    height: 80px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  .foot{
+    padding-top: 10px;
+  }

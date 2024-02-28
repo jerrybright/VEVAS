@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+:root{
+    --pcolor : rgb(22, 149, 10);
+}
+.logo{
+    height: 7vh;
+    margin-left: 100px;
+}
+.links{
+    margin-right: 100px;
+}
+.links a{
+    text-decoration: none;
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: var(--pcolor);
+    padding: 8px 12px;
+    border-radius: 20px;
+}
+.links a:hover{
+    transition: .2s;
+    box-shadow: 0px 0px 8px var(--pcolor);
+}
+nav{
+    top: 0;
+    position: fixed;
+    background-color: white;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+    box-shadow: 0px 0px 30px var(--pcolor);
+}
+
+section{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#categories{
+    font-size: medium;
+    padding: 10px;
+    width: 250px;
+    margin-left: 20px;
+    border-radius: 10px;
+    color: var(--pcolor);
+    border: 2px solid var(--pcolor);
+}
+
+#categories:focus{
+    outline: none;
+    box-shadow: 0px 0px 8px var(--pcolor);
+}
+
+.bar{
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.bar h4{
+    color: var(--pcolor);
+}
+
+.tab{
+    margin: 40px 0px;
+    width: 90vw;
+    display: none;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.active{
+    display: flex;
+}
+
+.card{
+    box-shadow: 1px 1px 5px var(--pcolor);
+    width: fit-content; 
+    border-radius: 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card:hover{
+    transition: .2s;
+    transform: scale(1.05);
+}
+
+.p_des{
+    width: 230px;
+    font-size: larger;
+}
+.p_img{
+    margin: 25px;
+    height: 230px;
+    width: 230px;
+    border-radius: 15px;
+}
+.prib{
+    font-size: larger;
+    width: 230px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: flex-end;
+}
+
+.p_btn{
+    padding: 5px 25px;
+    border-radius: 5px;
+    border: none;
+    border: 2px solid var(--pcolor);
+    background-color: white;
+}
+
+.p_btn:hover{
+    box-shadow: 0px 0px 10px var(--pcolor);
+}

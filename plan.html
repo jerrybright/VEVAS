@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Print Paragraph Word by Word</title>
+  </head>
+  <body>
+    <div id="word-container"></div>
+    <script>
+      // Define the paragraph text
+      var paragraph = "This is a sample paragraph that we will print word by word.";
+      
+      // Split the text into an array of words
+      var words = paragraph.split(" ");
+      
+      // Get the word container element
+      var wordContainer = document.getElementById("word-container");
+      
+      // Loop through each word in the array
+      for (var i = 0; i < words.length; i++) {
+        // Create a new span element for the word
+        var span = document.createElement("span");
+        span.textContent = words[i] + " ";
+        
+        // Add the span element to the container
+        wordContainer.appendChild(span);
+        wordContainer.classList.add('slow-print');
+      }
+    </script>
+  </body>
+</html>
+
